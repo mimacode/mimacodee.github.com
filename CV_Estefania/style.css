@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --FuenteTitulo:'Bree Serif', serif;
+    --FuenteSubtitulo:'Kaushan Script', cursive;
+    --FuenteTexto:'Philosopher', sans-serif;
+    --FuenteRelleno:'Concert One', cursive;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(9, 5, 59);
+    color: rgb(255, 255, 255);
+}
+h1{
+    display: inline-block;
+    padding: 50px;
+    font-family: var(--FuenteTitulo)
+}
+h2{
+    display: inline-block;
+    font-family: var(--FuenteSubtitulo);
+
+}
+.eslogan{
+    background-color: rgba(223, 7, 108, 0.815);
+    color: rgb(167, 14, 14);
+    padding: 15px;
+    font-family: var(--FuenteTexto);
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+.contenedor{
+    width: 1200px;
+    height: 1350px;
+    background-color: rgba(247, 243, 242, 0.336);
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.education h3, .experience h3, .Soft-skills h3, .Personal-Information h3{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    font-family: var(--FuenteTitulo);
+    font-size: 27px;
+    padding-top:5px;
+    padding-bottom: 10px;
+    padding-left: 7px;
+    padding-right: 7px;
+    text-transform: uppercase;
+    font-size: 30px;
+    border: 2px dotted rgb(255, 80, 197);
+    display: inline-block;
+    border-radius: 7px;
+    box-shadow: 0px 2px 0px 2px rgb(255, 9, 181, 0.5);
+}
+
+.items-education, .items-experience, .items-skills, .items-information{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-family: var(--FuenteRelleno);
+    color: rgba(0, 0, 0, 0.829);
+}
+dt a{
+    text-decoration: none;
+    color: rgb(8, 8, 116);
+}
+dd a{
+    text-decoration: none;
+    color: rgb(109, 9, 175);
+}
+dt a:hover{
+    color: blue;
+}
+dd a:hover{
+    color: rgb(137, 11, 255);
+}
+/* dt a:visited{
+    color: rgb(8, 8, 116);
+}
+dd a:visited{
+    color: rgb(109, 9, 175);
+} */
+dl,li{
+    margin-bottom: 15px;
+}
+dd{
+    margin-left: 30px;
+}
+dt,li{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+li{
+    margin: 20px;
+    margin-bottom: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
